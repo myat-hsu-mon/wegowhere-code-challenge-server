@@ -35,28 +35,13 @@ $ npm install
 ## Running the app
 
 ```bash
-# development
-$ npm run start
-
 # watch mode
 $ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
-## Test
+## Note
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+Presently, sensitive data is incorporated directly into the project code. In practice, it is advisable to utilize an environment file to securely store such information.
 
 ## Support
 
